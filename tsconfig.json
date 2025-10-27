@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",
+    /* EMIT */
+    "outDir": "./dist", // Place to put compiled files which is called dist or distributable folder
+    "removeComments": false,
+    "noEmitOnError": true,
+    "sourceMap": true, // Create source map files for debugging for how each line of our ts code maps to the generated js code
+    // Environment Settings
+    "module": "nodenext",
+    "target": "esnext", // Version of javascript typescript compiler will create
+    "noImplicitAny": true
+  }
+}
